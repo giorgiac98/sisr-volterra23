@@ -1,0 +1,3 @@
+face_recognition/data/*
+face_recognition/multi_detection.py
+socket/solutions/*
