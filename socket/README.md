@@ -1,7 +1,7 @@
 ## Ripasso
 In questa lezione di laboratorio vedremo come utilizzare le primitive di base delle socket per instaurare delle semplici connessioni tra client e server.
 
-Il [modulo socket di Python](https://docs.python.org/3/library/socket.html) fornisce un'interfaccia alle API BSD(Berkeley Software Distribution UNIX, visto anche a lezione. 
+Il [modulo socket di Python](https://docs.python.org/3/library/socket.html) fornisce un'interfaccia alle API BSD(Berkeley Software Distribution) UNIX, viste anche a lezione. 
 
 Le funzioni e i metodi API socket primari in questo modulo sono:
 
