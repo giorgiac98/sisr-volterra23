@@ -1,7 +1,7 @@
 import cv2
 import face_recognition
 
-
+# FIXME modificare il nome del file con il proprio
 img = cv2.imread("data/giorgia.jpg")
 rgb_img = cv2.cvtColor(img, cv2.COLOR_BGR2RGB)
 img_encoding = face_recognition.face_encodings(rgb_img)[0]
