@@ -44,3 +44,12 @@ Per eseguire i file:
 ### Installazione su Windows
 
 * Installare [Python](https://www.python.org/downloads/)
+* Installare [Miniconda](https://docs.conda.io/en/main/miniconda.html)
+* Installare la libreria di [Microsoft Visual C++](https://learn.microsoft.com/it-IT/cpp/windows/latest-supported-vc-redist?view=msvc-170)
+* Aprire la barra di ricerca e aprire **Anaconda Prompt (miniconda3)**
+* Spostarsi nella cartella corrente (face_recognition) ed eseguire i seguenti comandi:
+    ```
+    conda create -n cv python
+    conda activate cv
+    pip install -r requirements.txt
+    ```
