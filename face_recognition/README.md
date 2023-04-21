@@ -6,10 +6,6 @@ File di esempio per il riconoscimento facciale con Python.
 **Suggerisco di utilizzare Ubuntu 22.04** se non lo avete installato sul 
 vostro pc usate pure una macchina virtuale.
 
-* [Installazione su Ubuntu](#installazione-su-ubuntu)
-* [Installazione su Windows](#installazione-su-windows)
-
-
 ### Installazione su Ubuntu
 
 * Installare Python con i seguenti comandi:
@@ -40,16 +36,3 @@ Per eseguire i file:
   * spostarsi nella cartella corrente (face_recognition)
   * attivare l'environment con il comando `conda activate cv`
 * Altrimenti eseguire il file desiderato con il comando `python simple_detection.py` o `python multi_detection.py`
-
-### Installazione su Windows
-
-* Installare [Python](https://www.python.org/downloads/)
-* Installare [Miniconda](https://docs.conda.io/en/main/miniconda.html)
-* Installare la libreria di [Microsoft Visual C++](https://learn.microsoft.com/it-IT/cpp/windows/latest-supported-vc-redist?view=msvc-170)
-* Aprire la barra di ricerca e aprire **Anaconda Prompt (miniconda3)**
-* Spostarsi nella cartella corrente (face_recognition) ed eseguire i seguenti comandi:
-    ```
-    conda create -n cv python
-    conda activate cv
-    pip install -r requirements.txt
-    ```
